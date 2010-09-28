@@ -1,0 +1,11 @@
+UIView+RoundedCorners Category
+by Warren Moore
+
+Usage:
+/* Round all corners */
+[aView setRoundedCorners:UIViewRoundedCornerAll radius:8.0];
+/* Round both left corners */
+[aView setRoundedCorners:UIViewRoundedCornerUpperLeft | UIViewRoundedCornerLowerLeft radius:8.0];
+
+
+
