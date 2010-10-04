@@ -49,6 +49,7 @@
 	[[self layer] setMask:nil];
 	[[self layer] setMask:maskLayer];
 	[maskLayer release];
+	CGPathRelease(path);
 }
 
 @end
